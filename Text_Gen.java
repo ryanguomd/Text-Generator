@@ -72,8 +72,8 @@ class Text_Gen {
     public static void main(String[] arguments) {
         // String sourceText = "aaaabbbb";
         // String sourceText = "bananas";
-        String sourceText = "red leather yellow leather ";
-        // String sourceText = readFileIntoString("Text_Gen.java", false);
+        // String sourceText = "red leather yellow leather ";
+        String sourceText = readFileIntoString("catinthehat.txt", false);
         
         int windowLength = 6;
         int numberOfCharactersToGenerate = 1000;
