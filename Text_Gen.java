@@ -86,15 +86,11 @@ class Text_Gen {
     
     
     // return a random int in range [0, upperBoundExclusive)
-    // e.g., getRandomInt(10) returns a random number from { 0, 1, 2, ..., 9 }
     static int getRandomInt(int upperBoundExclusive) {
         return _random.nextInt(upperBoundExclusive);
     }
     
-    // As written, the behavior of getRandomInt(...)
-    // will be the same each time the program runs.
-    // To make it different each time...
-    // ...change "new Random(0)" -> "new Random()" below
+    // "new Random(0)" -> "new Random()" 
     static Random _random = new Random(0);
     
     
